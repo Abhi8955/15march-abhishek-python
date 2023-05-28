@@ -1,0 +1,3 @@
+We can directly use the ‘in operator’ with the dictionary to check if a key exist in dictionary or nor. 
+The expression, Will evaluate to a boolean value and if key exist in dictionary then it will evaluate to True, otherwise False. 
+Let’s use this to check if key is in dictionary or not.
