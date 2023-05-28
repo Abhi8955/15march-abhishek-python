@@ -1,0 +1,18 @@
+1.Using dict.items() Method
+Python's dict.items() method allows you to loop through the dictionary. 
+Each repetition will provide you with both the key and value of each item.
+
+
+#--------------------------------------------------------------------------------------#
+2.Using Keys() Method
+To iterate through the dictionary's keys, utilise the keys() method that is supplied by the dictionary. 
+An iterable of the keys available in the dictionary is returned. 
+Then, as seen below, you can cycle through the keys using a for loop.
+
+
+
+#--------------------------------------------------------------------------------------#
+3.Using Values() Method
+To iterate through the values of the dictionary elements, utilise the values() method that the dictionary provides.
+An iterable of all the values for each item that is available in the dictionary is returned. 
+You can then go through the numbers as shown below by using a for loop.
