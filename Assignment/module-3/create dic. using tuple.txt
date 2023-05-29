@@ -1,0 +1,21 @@
+Method 1 : Use of setdefault()
+
+Here we have used the dictionary method setdefault() to convert the first parameter to key and the second to the value of the dictionary. 
+setdefault(key, def_value) function searches for a key and displays its value, 
+and creates a new key with def_value if the key is not present. 
+Using the append function we just added the values to the dictionary. 
+
+
+
+#---------------------------------------------------------------------------------#
+Method 2 : Use of dict() method
+
+
+
+#---------------------------------------------------------------------------------#
+Method 3:
+
+You can use the itertools.
+groupby function from the itertools module to convert a list of tuples into a dictionary, 
+where the keys are the unique values in the list and the values are lists of tuples that have the same value.
+

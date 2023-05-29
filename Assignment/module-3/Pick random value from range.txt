@@ -1,0 +1,23 @@
+How can you pick a random item from a range?
+To pick a random item from a range in Python, you can use the `random` module. Here's how you can do it:
+
+1. Import the `random` module at the beginning of your script:
+   ```python
+   import random
+   ```
+
+2. Use the `random.choice()` function to pick a random item from the range. Pass the range as an argument to the function, 
+   and it will return a randomly selected item from the range:
+   ```python
+   my_range = range(1, 10)
+   random_item = random.choice(my_range)
+   ```
+
+After executing the above code snippet, the variable `random_item` will contain a randomly selected item from the specified range.
+
+Note: In Python, the `range()` function creates a sequence of numbers within a specified range. The range is defined by the start and stop values, 
+      and it generates numbers up to, but not including, the stop value. 
+      The `random.choice()` function can be used to randomly select an item from any iterable, including a range.
+
+If you want to pick multiple random items from a range without replacement (i.e., without picking the same item again), 
+you can use the `random.sample()` function instead.

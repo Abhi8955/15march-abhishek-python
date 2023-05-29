@@ -1,0 +1,26 @@
+What is tuple? Difference between list and tuple.
+A tuple is an ordered, immutable collection of elements in Python. 
+It is similar to a list, but the main difference is that tuples are immutable, meaning they cannot be modified once created. 
+Here are the key differences between lists and tuples:
+
+1. Mutability: Lists are mutable, which means you can add, remove, or modify elements after the list is created. 
+               Tuples, on the other hand, are immutable, and their elements cannot be changed after creation.
+
+2. Syntax: Lists are defined using square brackets `[ ]`, while tuples are defined using parentheses `( )`. For example:
+   - List: `my_list = [1, 2, 3]`
+   - Tuple: `my_tuple = (1, 2, 3)`
+
+3. Modification: Since tuples are immutable, you cannot add or remove elements from a tuple, nor can you modify existing elements. 
+                 In contrast, lists allow you to append or remove elements using methods like `append()`, `remove()`, 
+                 or by directly assigning new values to specific indices.
+
+4. Use cases: Lists are commonly used for storing collections of related items that may need to be modified, such as a list of tasks, 
+              a shopping list, or a sequence of numbers. 
+              Tuples are often used when you want to group related values together, but you don't want them to be modified accidentally. Tuples are useful for returning multiple values from a function, as dictionary keys (since they are immutable), or for representing fixed collections of data, such as coordinates or dimensions.
+
+5. Performance: Since tuples are immutable, they are more memory-efficient and faster to access than lists. 
+                However, when it comes to modifying or iterating over elements, lists are generally faster.
+
+In summary, the main difference between lists and tuples is that lists are mutable, while tuples are immutable. 
+Lists allow modifications to their elements and have a more flexible nature,
+whereas tuples provide an immutable and efficient way to group related values together.

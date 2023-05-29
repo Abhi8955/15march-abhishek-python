@@ -1,0 +1,26 @@
+How will you set the starting value in generating random numbers?
+To set the starting value in generating random numbers, you can use the `random.seed()` function from the `random` module in Python. 
+The `random.seed()` function initializes the random number generator with a given seed value.
+
+Here's how you can set the starting value for generating random numbers:
+
+1. Import the `random` module at the beginning of your script:
+   ```python
+   import random
+   ```
+
+2. Set the seed value using the `random.seed()` function. The seed value can be any hashable object, such as an integer or a string.
+   ```python
+   random.seed(123)  # Set the seed value to 123
+   ```
+
+3. After setting the seed, you can generate random numbers using the various functions from the `random` module, a
+   nd they will produce the same sequence of random numbers every time you run the script.
+   ```python
+   random_number = random.random()
+   ```
+
+By setting the same seed value, you can ensure that the random number generator produces the same sequence of random numbers, 
+which can be useful for replicating results or debugging purposes.
+
+Note: If you don't explicitly set a seed value, the random number generator uses the current system time as the default seed value.

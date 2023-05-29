@@ -1,0 +1,5 @@
+How will you compare two list?
+->
+    In Python, you can compare two lists by using the sort() method to sort the elements of the lists first. 
+    Then, you can compare the two lists. For comparison, first we will check if the length of the lists are equal or not. 
+    If the lengths are not equal, the lists will be automatically considered as different

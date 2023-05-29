@@ -1,0 +1,17 @@
+How will you randomizes the items of a list in place?
+To randomize the items of a list in-place, you can use the `random.shuffle()` function from the `random` module in Python. 
+Here's an example:
+
+```python
+import random
+
+my_list = [1, 2, 3, 4, 5]
+
+random.shuffle(my_list)
+```
+
+The `random.shuffle()` function shuffles the elements of the `my_list` in-place, meaning it modifies the original list directly. 
+After calling `random.shuffle(my_list)`, the order of the items in `my_list` will be randomized.
+
+Note that `random.shuffle()` works specifically with lists. 
+If you have a tuple or any other iterable, you can convert it to a list using the `list()` function before shuffling it.
